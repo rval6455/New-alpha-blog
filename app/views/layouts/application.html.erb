@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>App</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag 'application', '/app/alpha-blog/vendor/assets/stylesheets/main' %>
+    <%= stylesheet_link_tag 'application', '/app/alpha-blog/vendor/assets/stylesheets/font-awesome.min' %>
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
